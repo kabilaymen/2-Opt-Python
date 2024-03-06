@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 
 def import_excel():
     uploaded_file = st.file_uploader("Sélectionnez le fichier Excel", type=["xls", "xlsx"])
