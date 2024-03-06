@@ -44,7 +44,7 @@ def two_opt_algorithm(distance_matrix):
     return best_route
 
 def main():
-    st.title("Streamlit Traveling Salesman Problem Solver")
+    st.title("Algorithme des 2-Echanges")
 
     num_cities = st.number_input("Combien de villes y a-t-il ?", min_value=1, step=1, value=5)
 
